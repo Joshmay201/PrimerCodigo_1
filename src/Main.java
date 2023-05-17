@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Josue Segura");
+        String saludar = "Hola Mundo Desde Java";
+        System.out.println(saludar);
+        System.out.println("ejemplo " + saludar.toUpperCase());
     }
 }
